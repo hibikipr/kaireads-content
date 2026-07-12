@@ -1,148 +1,57 @@
 {
   "schemaVersion": 1,
-  "contentVersion": 2,
+  "contentVersion": 3,
   "phonicsWords": [
-    {
-      "word": "dig",
-      "emoji": "🦖"
-    },
-    {
-      "word": "egg",
-      "emoji": "🥚"
-    },
-    {
-      "word": "run",
-      "emoji": "🏃"
-    },
-    {
-      "word": "web",
-      "emoji": "🕸️"
-    },
-    {
-      "word": "bat",
-      "emoji": "🦇"
-    },
-    {
-      "word": "sun",
-      "emoji": "☀️"
-    }
+    { "word": "dig", "emoji": "🦖" },
+    { "word": "egg", "emoji": "🥚" },
+    { "word": "run", "emoji": "🏃" },
+    { "word": "web", "emoji": "🕸️" },
+    { "word": "bat", "emoji": "🦇" },
+    { "word": "cat", "emoji": "🐱" },
+    { "word": "dog", "emoji": "🐶" },
+    { "word": "sun", "emoji": "☀️" },
+    { "word": "bug", "emoji": "🐛" },
+    { "word": "hat", "emoji": "🎩" },
+    { "word": "pig", "emoji": "🐷" },
+    { "word": "fox", "emoji": "🦊" },
+    { "word": "bed", "emoji": "🛏️" },
+    { "word": "cup", "emoji": "🥤" },
+    { "word": "map", "emoji": "🗺️" }
   ],
   "builderWords": [
-    {
-      "word": "ghost",
-      "emoji": "👻",
-      "tiles": [
-        "s",
-        "g",
-        "o",
-        "h",
-        "t"
-      ]
-    },
-    {
-      "word": "bone",
-      "emoji": "🦴",
-      "tiles": [
-        "n",
-        "b",
-        "e",
-        "o"
-      ]
-    },
-    {
-      "word": "moon",
-      "emoji": "🌙",
-      "tiles": [
-        "o",
-        "m",
-        "n",
-        "o"
-      ]
-    },
-    {
-      "word": "skull",
-      "emoji": "💀",
-      "tiles": [
-        "l",
-        "u",
-        "k",
-        "l",
-        "s"
-      ]
-    },
-    {
-      "word": "star",
-      "emoji": "⭐",
-      "tiles": [
-        "a",
-        "s",
-        "r",
-        "t"
-      ]
-    }
+    { "word": "ghost", "emoji": "👻", "tiles": ["s", "g", "o", "h", "t"] },
+    { "word": "bone", "emoji": "🦴", "tiles": ["n", "b", "e", "o"] },
+    { "word": "moon", "emoji": "🌙", "tiles": ["o", "m", "n", "o"] },
+    { "word": "skull", "emoji": "💀", "tiles": ["l", "u", "k", "l", "s"] },
+    { "word": "star", "emoji": "⭐", "tiles": ["a", "s", "r", "t"] },
+    { "word": "ship", "emoji": "🚢", "tiles": ["p", "s", "i", "h"] },
+    { "word": "frog", "emoji": "🐸", "tiles": ["g", "f", "o", "r"] },
+    { "word": "cake", "emoji": "🎂", "tiles": ["k", "c", "e", "a"] },
+    { "word": "fish", "emoji": "🐟", "tiles": ["s", "f", "h", "i"] },
+    { "word": "rock", "emoji": "🪨", "tiles": ["c", "r", "k", "o"] }
   ],
   "sightRounds": [
-    {
-      "target": "said",
-      "options": [
-        "said",
-        "and",
-        "the"
-      ]
-    },
-    {
-      "target": "the",
-      "options": [
-        "was",
-        "the",
-        "you"
-      ]
-    },
-    {
-      "target": "have",
-      "options": [
-        "have",
-        "here",
-        "come"
-      ]
-    },
-    {
-      "target": "they",
-      "options": [
-        "then",
-        "want",
-        "they"
-      ]
-    },
-    {
-      "target": "was",
-      "options": [
-        "was",
-        "saw",
-        "we"
-      ]
-    }
+    { "target": "said", "options": ["said", "and", "the"] },
+    { "target": "the", "options": ["was", "the", "you"] },
+    { "target": "have", "options": ["have", "here", "come"] },
+    { "target": "they", "options": ["then", "want", "they"] },
+    { "target": "was", "options": ["was", "saw", "we"] },
+    { "target": "you", "options": ["you", "your", "out"] },
+    { "target": "see", "options": ["she", "see", "me"] },
+    { "target": "come", "options": ["came", "some", "come"] },
+    { "target": "here", "options": ["here", "her", "hear"] },
+    { "target": "little", "options": ["little", "like", "late"] },
+    { "target": "look", "options": ["book", "look", "lock"] },
+    { "target": "my", "options": ["my", "me", "by"] },
+    { "target": "we", "options": ["we", "be", "me"] },
+    { "target": "go", "options": ["got", "go", "do"] },
+    { "target": "and", "options": ["and", "an", "add"] }
   ],
   "storyPages": [
-    {
-      "text": "Kai went to the dino planet.",
-      "emoji": "🚀"
-    },
-    {
-      "text": "He saw a big red egg.",
-      "emoji": "🥚"
-    },
-    {
-      "text": "The egg went crack, crack!",
-      "emoji": "💥"
-    },
-    {
-      "text": "A baby dino ran to Kai.",
-      "emoji": "🦖"
-    },
-    {
-      "text": "Kai and the dino are best friends!",
-      "emoji": "💛"
-    }
+    { "text": "Kai went to the dino planet.", "emoji": "🚀" },
+    { "text": "He saw a big red egg.", "emoji": "🥚" },
+    { "text": "The egg went crack, crack!", "emoji": "💥" },
+    { "text": "A baby dino ran to Kai.", "emoji": "🦖" },
+    { "text": "Kai and the dino are best friends!", "emoji": "💛" }
   ]
 }
