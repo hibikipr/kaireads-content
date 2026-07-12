@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "contentVersion": 3,
+  "contentVersion": 4,
   "phonicsWords": [
     { "word": "dig", "emoji": "🦖" },
     { "word": "egg", "emoji": "🥚" },
@@ -16,7 +16,15 @@
     { "word": "fox", "emoji": "🦊" },
     { "word": "bed", "emoji": "🛏️" },
     { "word": "cup", "emoji": "🥤" },
-    { "word": "map", "emoji": "🗺️" }
+    { "word": "map", "emoji": "🗺️" },
+    { "word": "big", "emoji": "🐘" },
+    { "word": "can", "emoji": "🥫" },
+    { "word": "in", "emoji": "📥" },
+    { "word": "it", "emoji": "👉" },
+    { "word": "me", "emoji": "🙋" },
+    { "word": "not", "emoji": "🚫" },
+    { "word": "red", "emoji": "🔴" },
+    { "word": "up", "emoji": "⬆️" }
   ],
   "builderWords": [
     { "word": "ghost", "emoji": "👻", "tiles": ["s", "g", "o", "h", "t"] },
@@ -28,7 +36,15 @@
     { "word": "frog", "emoji": "🐸", "tiles": ["g", "f", "o", "r"] },
     { "word": "cake", "emoji": "🎂", "tiles": ["k", "c", "e", "a"] },
     { "word": "fish", "emoji": "🐟", "tiles": ["s", "f", "h", "i"] },
-    { "word": "rock", "emoji": "🪨", "tiles": ["c", "r", "k", "o"] }
+    { "word": "rock", "emoji": "🪨", "tiles": ["c", "r", "k", "o"] },
+    { "word": "blue", "emoji": "🔵", "tiles": ["u", "b", "e", "l"] },
+    { "word": "down", "emoji": "⬇️", "tiles": ["w", "d", "n", "o"] },
+    { "word": "find", "emoji": "🔍", "tiles": ["n", "f", "d", "i"] },
+    { "word": "help", "emoji": "🆘", "tiles": ["l", "h", "p", "e"] },
+    { "word": "jump", "emoji": "🦘", "tiles": ["m", "j", "p", "u"] },
+    { "word": "make", "emoji": "🛠️", "tiles": ["k", "m", "e", "a"] },
+    { "word": "play", "emoji": "🎮", "tiles": ["a", "p", "y", "l"] },
+    { "word": "three", "emoji": "3️⃣", "tiles": ["h", "e", "r", "t", "e"] }
   ],
   "sightRounds": [
     { "target": "said", "options": ["said", "and", "the"] },
@@ -45,7 +61,18 @@
     { "target": "my", "options": ["my", "me", "by"] },
     { "target": "we", "options": ["we", "be", "me"] },
     { "target": "go", "options": ["got", "go", "do"] },
-    { "target": "and", "options": ["and", "an", "add"] }
+    { "target": "and", "options": ["and", "an", "add"] },
+    { "target": "a", "options": ["a", "an", "I"] },
+    { "target": "away", "options": ["away", "way", "stay"] },
+    { "target": "for", "options": ["for", "four", "fur"] },
+    { "target": "funny", "options": ["funny", "sunny", "bunny"] },
+    { "target": "I", "options": ["I", "in", "is"] },
+    { "target": "is", "options": ["is", "it", "in"] },
+    { "target": "one", "options": ["one", "once", "only"] },
+    { "target": "to", "options": ["to", "too", "top"] },
+    { "target": "two", "options": ["two", "ten", "toe"] },
+    { "target": "where", "options": ["where", "were", "here"] },
+    { "target": "yellow", "options": ["yellow", "fellow", "yell"] }
   ],
   "storyPages": [
     { "text": "Kai went to the dino planet.", "emoji": "🚀" },
