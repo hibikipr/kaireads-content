@@ -18,6 +18,12 @@ higher than what it already has.
   app rejects the whole file if tiles don't spell the word.
 - **sightRounds** — `options` must include `target` (plus decoys).
 - **storyPages** — each page is one sentence plus a big emoji.
+- **letterSounds** *(optional)* — per-letter pronunciation overrides for the
+  phonics letter taps, e.g. `"letterSounds": { "e": "ebb" }`. Keys must be a
+  single **lowercase** letter; values are what the speech synthesizer speaks.
+  Use this to fix a mispronounced letter without waiting for an app update —
+  overrides win over the app's built-in sounds. Omit the section entirely to
+  use the defaults.
 
 If the file has a mistake (bad JSON, tiles that don't spell the word, a missing
 target), the app silently keeps its previous content — nothing breaks, the edit
