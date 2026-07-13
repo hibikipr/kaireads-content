@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "contentVersion": 4,
+  "contentVersion": 5,
   "phonicsWords": [
-    { "word": "dig", "emoji": "🦖" },
+    { "word": "dig", "emoji": "🪏" },
     { "word": "egg", "emoji": "🥚" },
     { "word": "run", "emoji": "🏃" },
     { "word": "web", "emoji": "🕸️" },
