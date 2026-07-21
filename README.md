@@ -1,6 +1,7 @@
 # Kai Reads — Game Content
 
-This repo holds the live game content for the **Kai Reads** iPhone & iPad app.
+This repo holds the live game content for the **Kai Reads** iPhone & iPad app,
+[available on the App Store](https://apps.apple.com/us/app/kai-reads/id6790004296).
 The app fetches `kai-content.json` from this repo's raw URL on launch, caches
 it, and falls back to its bundled copy when offline.
 
