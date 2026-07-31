@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "contentVersion": 5,
+  "contentVersion": 6,
   "phonicsWords": [
     { "word": "dig", "emoji": "🪏" },
     { "word": "egg", "emoji": "🥚" },
@@ -80,5 +80,51 @@
     { "text": "The egg went crack, crack!", "emoji": "💥" },
     { "text": "A baby dino ran to Kai.", "emoji": "🦖" },
     { "text": "Kai and the dino are best friends!", "emoji": "💛" }
+  ],
+  "stories": [
+    {
+      "title": "Kai and the Dino Egg",
+      "emoji": "🦖",
+      "pages": [
+        { "text": "Kai went to the dino planet.", "emoji": "🚀" },
+        { "text": "He saw a big red egg.", "emoji": "🥚" },
+        { "text": "The egg went crack, crack!", "emoji": "💥" },
+        { "text": "A baby dino ran to Kai.", "emoji": "🦖" },
+        { "text": "Kai and the dino are best friends!", "emoji": "💛" }
+      ]
+    },
+    {
+      "title": "Kai and the Shooting Star",
+      "emoji": "✨",
+      "pages": [
+        { "text": "Kai looked up at the night sky.", "emoji": "🌌" },
+        { "text": "A star zoomed past so fast!", "emoji": "⭐" },
+        { "text": "Kai made a wish on it.", "emoji": "🤞" },
+        { "text": "The star winked back at Kai.", "emoji": "✨" },
+        { "text": "Kai went to bed with a smile.", "emoji": "😴" }
+      ]
+    },
+    {
+      "title": "Kai and the Lost Robot",
+      "emoji": "🤖",
+      "pages": [
+        { "text": "Kai found a robot in the sand.", "emoji": "🤖" },
+        { "text": "The robot said, \"I am lost.\"", "emoji": "😟" },
+        { "text": "Kai helped the robot look for home.", "emoji": "🔍" },
+        { "text": "They found the robot's ship at last!", "emoji": "🚀" },
+        { "text": "The robot said, \"Thank you, Kai!\"", "emoji": "💛" }
+      ]
+    },
+    {
+      "title": "Kai and the Moon Picnic",
+      "emoji": "🌙",
+      "pages": [
+        { "text": "Kai packed a picnic for the moon.", "emoji": "🧺" },
+        { "text": "Kai and Luna sat on a rock.", "emoji": "🪨" },
+        { "text": "They ate star-shaped cookies together.", "emoji": "🍪" },
+        { "text": "A comet zoomed by and waved!", "emoji": "☄️" },
+        { "text": "Kai and Luna waved back and laughed.", "emoji": "😄" }
+      ]
+    }
   ]
 }
