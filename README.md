@@ -41,7 +41,14 @@ games by how decodable each word is: simple CVC-style words (`cat`, `big`,
   letters or fewer — that's the longest the tile row is laid out for.
 - **sightRounds** — `options` must include `target` (plus 2 decoys, ideally visually similar
   to the target, e.g. `here`/`hear`, `go`/`got`).
-- **storyPages** — each page is one sentence plus a big emoji.
+- **storyPages** — kept permanently for app versions from before multiple
+  stories shipped; always mirrors the "Kai and the Dino Egg" story below.
+  **Do not edit this field** — old installs read it directly and have no way
+  to show more than one story, so changing it would silently change what
+  they see with no way to preview the result.
+- **stories** — what every current app version actually reads. Each entry is
+  `{ title, emoji, pages }`; `emoji` is the story's cover art on the picker
+  screen. `pages` follows the same `{ text, emoji }` shape as `storyPages`.
 - **letterSounds** *(optional)* — per-letter pronunciation overrides for the
   phonics letter taps, e.g. `"letterSounds": { "e": "ebb" }`. Keys must be a
   single **lowercase** letter; values are what the speech synthesizer speaks.
