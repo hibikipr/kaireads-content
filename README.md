@@ -39,13 +39,19 @@ games by how decodable each word is: simple CVC-style words (`cat`, `big`,
   (scrambled) order, one letter per tile. `["s","g","o","h","t"]` for `"ghost"`. The
   app rejects the whole file if tiles don't spell the word. Keep words to 5
   letters or fewer — that's the longest the tile row is laid out for.
+- **level** *(on every phonicsWords, builderWords and sightRounds entry)* — `"kindergarten"`
+  or `"first"` (1st grade). Parents pick which level all three games draw from in
+  Parent Settings. For phonics and builder, tag by the skill involved: kindergarten
+  is CVC words with one sound per letter; 1st grade is blends, digraphs, silent e,
+  vowel teams and two-syllable words. Phonics words are sounded out one letter at a
+  time, so keep digraphs (`sh`, `ch`, `th`) out of phonicsWords. Untagged entries count
+  as kindergarten. Spell the level exactly: an unrecognized level isn't an error, the
+  word just only shows under "All Levels". Keep at least 5 words per level in each
+  game so a day's set is full. A game with no words at all at a level uses its
+  whole list instead.
 - **sightRounds** — `options` must include `target` (plus 2 decoys, ideally visually similar
   to the target, e.g. `go`/`got`). Avoid homophones as decoys (`to`/`too`): the game
   speaks the target aloud, so a homophone can't be told apart by ear.
-  `level` is `"kindergarten"` or `"first"` (1st grade) — parents choose which level
-  the game draws from in Parent Settings. Untagged rounds count as kindergarten. Spell
-  the level exactly: an unrecognized level isn't an error, the word just only shows
-  under "All Levels".
 - **storyPages** — kept permanently for app versions from before multiple
   stories shipped; always mirrors the "Kai and the Dino Egg" story below.
   **Do not edit this field** — old installs read it directly and have no way
