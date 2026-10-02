@@ -40,7 +40,12 @@ games by how decodable each word is: simple CVC-style words (`cat`, `big`,
   app rejects the whole file if tiles don't spell the word. Keep words to 5
   letters or fewer — that's the longest the tile row is laid out for.
 - **sightRounds** — `options` must include `target` (plus 2 decoys, ideally visually similar
-  to the target, e.g. `here`/`hear`, `go`/`got`).
+  to the target, e.g. `go`/`got`). Avoid homophones as decoys (`to`/`too`): the game
+  speaks the target aloud, so a homophone can't be told apart by ear.
+  `level` is `"kindergarten"` or `"first"` (1st grade) — parents choose which level
+  the game draws from in Parent Settings. Untagged rounds count as kindergarten. Spell
+  the level exactly: an unrecognized level isn't an error, the word just only shows
+  under "All Levels".
 - **storyPages** — kept permanently for app versions from before multiple
   stories shipped; always mirrors the "Kai and the Dino Egg" story below.
   **Do not edit this field** — old installs read it directly and have no way
