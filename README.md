@@ -34,22 +34,21 @@ games by how decodable each word is: simple CVC-style words (`cat`, `big`,
 
 - `schemaVersion` stays `1` — don't change it (the app rejects unknown schemas).
 - `contentVersion` must **increase** with every edit, or the app ignores the update.
-- **phonicsWords** — short, decodable words for sounding out; `emoji` is the picture on the asteroid.
+- **phonicsWords** — short, decodable words for sounding out; `emoji` is the picture on the asteroid. Optionally include `"graphemes"` (e.g. `["d","u","ck"]` or `["sh","i","p"]`) when a word contains a digraph or double consonant so the app groups it onto a single sound tile; `graphemes` must join to `word` exactly (case-insensitive) and is ignored by older app versions.
 - **builderWords** — `tiles` must contain **exactly the letters of `word`**, in any
-  (scrambled) order, one letter per tile. `["s","g","o","h","t"]` for `"ghost"`. The
-  app rejects the whole file if tiles don't spell the word. Keep words to 5
+  scrambled order (not already spelling `word`), one letter per tile. `["s","g","o","h","t"]` for `"ghost"`. The
+  app rejects the whole file if tiles don't spell the word or aren't scrambled. Keep words to 5
   letters or fewer — that's the longest the tile row is laid out for.
 - **level** *(on every phonicsWords, builderWords and sightRounds entry)* — `"kindergarten"`
   or `"first"` (1st grade). Parents pick which level all three games draw from in
   Parent Settings. For phonics and builder, tag by the skill involved: kindergarten
   is CVC words with one sound per letter; 1st grade is blends, digraphs, silent e,
-  vowel teams and two-syllable words. Phonics words are sounded out one letter at a
-  time, so keep digraphs (`sh`, `ch`, `th`) out of phonicsWords. Untagged entries count
+  vowel teams and two-syllable words. Use `"graphemes"` for digraph/FLOSS words (`ck`, `ll`, `sh`, `ch`, `th`, `qu`) in `phonicsWords`. Untagged entries count
   as kindergarten. Spell the level exactly: an unrecognized level isn't an error, the
   word just only shows under "All Levels". Keep at least 5 words per level in each
   game so a day's set is full. A game with no words at all at a level uses its
   whole list instead.
-- **sightRounds** — `options` must include `target` (plus 2 decoys, ideally visually similar
+- **sightRounds** — `options` must include `target` with no duplicate options (plus 2 decoys, ideally visually similar
   to the target, e.g. `go`/`got`). Avoid homophones as decoys (`to`/`too`): the game
   speaks the target aloud, so a homophone can't be told apart by ear.
 - **storyPages** — kept permanently for app versions from before multiple
